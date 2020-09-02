@@ -32,7 +32,7 @@ fun climbingLeaderboard(scores: Array<Int>, alice: Array<Int>): List<Int> {
 }
 
 fun positionAliceScore(scores: Array<Int>, alice: Array<Int>): List<Int> {
-    //Attempts to pass failing tessts but couldn't get my head around it
+    //Attempts to pass failing tests but didn't seem to get it right
     val scoreSet = scores.distinct().toMutableList()
     val alicePosition = mutableListOf<Int>()
     var index = scoreSet.size -1
